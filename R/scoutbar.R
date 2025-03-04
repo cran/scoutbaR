@@ -37,7 +37,7 @@ scoutbar <- function(
     "scoutbar",
     htmltools::htmlDependency(
       name = "scoutbar-input",
-      version = "1.0.0",
+      version = utils::packageVersion(utils::packageName()),
       src = "www/scoutbar",
       package = "scoutbaR",
       script = "scoutbar.js"
