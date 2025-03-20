@@ -3,7 +3,7 @@
 #' Scoutbar react widget for Shiny.
 #'
 #' Provides a contextual menu users can activate
-#' with keyboard shortcut or prommatically with \link{update_scoutbar}.
+#' with keyboard shortcut or programmatically with \link{update_scoutbar}.
 #' Scoutbar may be seen as an alternative to sidebars and navbars, as it allows
 #' to construct better navigation menus.
 #'
@@ -11,6 +11,8 @@
 #' @importFrom htmltools htmlDependency tags
 #'
 #' @param inputId Widget input id.
+#' You can check the scoutbar configuration with \code{input[["<inputId>-configuration"]]}.
+#' You can query the scoutbar open state with \code{input[["<inputId>-open"]]}.
 #' @param theme Scoutbar theme.
 #' @param placeholder Scoutbar placeholder text. A string or
 #' a list of strings.
